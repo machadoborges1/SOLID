@@ -19,7 +19,6 @@ type Swimmer interface {
 
 // Subclasse Sparrow (pardal) que implementa Flyer
 type Sparrow struct {
-	Flyer // implementa flayer explicitamente
 	Bird
 }
 
